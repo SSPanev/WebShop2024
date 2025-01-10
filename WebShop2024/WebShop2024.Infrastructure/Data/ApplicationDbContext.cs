@@ -7,7 +7,10 @@ namespace WebShop2024.Infrastructure.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
+        {
+            Database.EnsureCreated();
+        }
 
         public DbSet<Brand> Brands { get; set; }
         public DbSet<Category> Categories { get; set; }

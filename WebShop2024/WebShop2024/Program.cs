@@ -14,6 +14,7 @@ namespace WebShop2024
     {
         public static void Main(string[] args)
         {
+            // who made this IDE it's terrible >:(
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -38,6 +39,7 @@ namespace WebShop2024
 
             builder.Services.AddTransient<ICategoryService, CategoryService>();
             builder.Services.AddTransient<IBrandService, BrandService>();
+            builder.Services.AddTransient<IProductService, ProductService>();
 
             var app = builder.Build();
             app.PrepareDatabase();
