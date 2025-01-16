@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop2024", "WebShop2024\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop2024.Infrastructure", "WebShop2024.Infrastructure\WebShop2024.Infrastructure.csproj", "{683AB0A5-B1AF-4157-966F-03B4130C6763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebShop2024.Core", "WebShop2024.Core\WebShop2024.Core.csproj", "{C1100528-F019-42B4-9CF2-386432E1810B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebShop2024.Core", "WebShop2024.Core\WebShop2024.Core.csproj", "{C1100528-F019-42B4-9CF2-386432E1810B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
