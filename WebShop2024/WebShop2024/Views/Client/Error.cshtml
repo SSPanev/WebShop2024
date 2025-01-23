@@ -1,0 +1,13 @@
+﻿@model WebShop2024.Models.Client.ClientErrorVM
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1>The user could not be removed!</h1>
+<br />
+<h3>Reason:</h3>
+<h3><code class="code">@Html.DisplayFor(model => model.ErrorMessage)</code></h3>
+
+<div>
+    <a asp-action="Index">Return to list</a>
+</div>

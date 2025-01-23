@@ -43,7 +43,7 @@ namespace WebShop2024
             builder.Services.AddTransient<IOrderService, OrderService>();
 
             var app = builder.Build();
-            app.PrepareDatabase();
+            _ = app.PrepareDatabase();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
